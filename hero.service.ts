@@ -19,7 +19,7 @@ private heroesUrl = 'api/heroes';  // URL to web api
   /** GET heroes from the server */
 getHeroes(): Observable<Hero[]> {
 
-//window.alert("hoo wheeee");
+//window.alert("Yeeee Haaaa");
 
 return this.http.get<Hero[]>(this.heroesUrl)
 
